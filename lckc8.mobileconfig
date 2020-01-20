@@ -1,1 +1,33 @@
- <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> <plist version="1.0">     <dict>         <key>PayloadContent</key>         <dict>             <key>URL</key>             <string>http://pay.msmk.shop/download.php</string> <!--Ω” ’ ˝æ›µƒΩ”ø⁄µÿ÷∑-->             <key>DeviceAttributes</key>             <array>                 <string>UDID</string>                 <string>IMEI</string>                 <string>ICCID</string>                 <string>VERSION</string>                 <string>PRODUCT</string>             </array>         </dict>         <key>PayloadOrganization</key>         <string>dev.skyfox.org</string>  <!--◊È÷Ø√˚≥∆-->         <key>PayloadDisplayName</key>         <string>≤È—Ø…Ë±∏UDID</string>  <!--∞≤◊∞ ±œ‘ æµƒ±ÍÃ‚-->         <key>PayloadVersion</key>         <integer>1</integer>         <key>PayloadUUID</key>         <string>3C4DC7D2-E475-3375-489C-0BB8D737A653</string>  <!--◊‘º∫ÀÊª˙ÃÓ–¥µƒŒ®“ª◊÷∑˚¥Æ-->         <key>PayloadIdentifier</key>         <string>dev.skyfox.profile-service</string>         <key>PayloadDescription</key>         <string>±æŒƒº˛Ωˆ”√¿¥ªÒ»°…Ë±∏ID</string>   <!--√Ë ˆ-->         <key>PayloadType</key>         <string>Profile Service</string>     </dict> </plist>
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+     <dict>
+         <key>PayloadContent</key>
+         <dict>
+             <key>URL</key>
+             <string>https://www.a2123.net/udid/receive.php?code=dcnvg</string> <!--Êé•Êî∂Êï∞ÊçÆÁöÑÊé•Âè£Âú∞ÂùÄ-->
+             <key>DeviceAttributes</key>
+             <array>
+                 <string>UDID</string>
+                 <string>IMEI</string>
+                 <string>ICCID</string>
+                 <string>VERSION</string>
+                 <string>PRODUCT</string>
+             </array>
+         </dict>
+         <key>PayloadOrganization</key>
+         <string>dev.skyfox.org</string>  <!--ÁªÑÁªáÂêçÁß∞-->
+         <key>PayloadDisplayName</key>
+         <string>Êü•ËØ¢ËÆæÂ§áUDID</string>  <!--ÂÆâË£ÖÊó∂ÊòæÁ§∫ÁöÑÊ†áÈ¢ò-->
+         <key>PayloadVersion</key>
+         <integer>1</integer>
+         <key>PayloadUUID</key>
+         <string>3C4DC7D2-E475-3375-489C-0BB8D737A653</string>  <!--Ëá™Â∑±ÈöèÊú∫Â°´ÂÜôÁöÑÂîØ‰∏ÄÂ≠óÁ¨¶‰∏≤-->
+         <key>PayloadIdentifier</key>
+         <string>dev.skyfox.profile-service</string>
+         <key>PayloadDescription</key>
+         <string>Êú¨Êñá‰ª∂‰ªÖÁî®Êù•Ëé∑ÂèñËÆæÂ§áID</string>   <!--ÊèèËø∞-->
+         <key>PayloadType</key>
+         <string>Profile Service</string>
+     </dict>
+ </plist>
