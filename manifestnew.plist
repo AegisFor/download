@@ -13,6 +13,12 @@
 					<key>url</key>
 					<string>http://8.210.236.213/download/xhyl.ipa</string>
 				</dict>
+				<dict>
+                                        <key>kind</key>
+                                        <string>display-image</string>
+                                        <key>url</key>
+                                        <string>https://i.loli.net/2020/08/04/LI7nxHZWskcvT2g.png</string>
+                                </dict>
 			</array>
 			<key>metadata</key>
 			<dict>
