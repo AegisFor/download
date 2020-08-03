@@ -13,29 +13,17 @@
 					<key>url</key>
 					<string>http://8.210.236.213/download/xhyl.ipa</string>
 				</dict>
-				<dict>
-					<key>kind</key>
-					<string>display-image</string>
-					<key>url</key>
-					<string>https://i.loli.net/2019/11/13/LavgDz416qUtmQE.png</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>url</key>
-					<string>https://i.loli.net/2019/11/13/y1Bk2fRXVdHArq6.png</string>
-				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>www.js8888.xyz</string>
+				<string>qierer.qp.Glory.qmdh</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>金沙娱乐</string>
+				<string>星河娱乐</string>
 			</dict>
 		</dict>
 	</array>
