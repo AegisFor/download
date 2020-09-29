@@ -11,7 +11,7 @@
                <key>kind</key>
                <string>software-package</string>
                <key>url</key>
-               <string>http://45.120.53.134/mhhy/jt_xhyl.ipa</string>
+               <string>http://45.120.53.134/mhhy/xhyl_v13.ipa</string>
              </dict>
              <dict>
                <key>kind</key>
@@ -39,7 +39,7 @@
              <key>kind</key>
              <string>software</string>
              <key>title</key>
-             <string>星河娛樂</string>
+             <string>星河娱乐</string>
            </dict>
         </dict>
       </array>
