@@ -1,25 +1,10 @@
 <?php
-// +----------------------------------------------------------------------
-// | ThinkPHP [ WE CAN DO IT JUST THINK ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2006~2016 http://thinkphp.cn All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
-// +----------------------------------------------------------------------
-// | Author: liu21st <liu21st@gmail.com>
-// +----------------------------------------------------------------------
-
-return [
-    // 生成应用公共文件
-    '__file__' => ['common.php', 'config.php', 'database.php'],
-
-    // 定义demo模块的自动生成 （按照实际定义的文件名生成）
-    'demo'     => [
-        '__file__'   => ['common.php'],
-        '__dir__'    => ['behavior', 'controller', 'model', 'view'],
-        'controller' => ['Index', 'Test', 'UserType'],
-        'model'      => ['User', 'UserType'],
-        'view'       => ['index/index'],
-    ],
-    // 其他更多的模块定义
-];
+//设置连接根
+$url = "https://api.telegram.org/bot1465491122:AAGtUhUDq4MxefrgbZXrgdCv4-mWf5XsIZo/";
+//获取反射信息
+$update = json_decode(file_get_contents('php://input'), true);
+$chat_id = $update['message']['chat']['id'];
+$name = $update['message']['from']['first_name'];
+//发送给用户
+file_get_contents($url . "sendmessage?text=你好，世界" . $name ."&chat_id=" . $chat_id);
+?>
