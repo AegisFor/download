@@ -12,7 +12,7 @@
 
  <key>URL</key>
 
- <string>http://pay.msmk.shop/download.php</string> <!--接收数据的接口地址-->
+ <string>https://raw.githubusercontent.com/AegisFor/download/master/manifestnew.plist</string> <!--接收数据的接口地址-->
 
  <key>DeviceAttributes</key>
 
