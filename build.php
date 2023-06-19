@@ -1,6 +1,6 @@
 <?php
 //设置连接根
-$url = "https://api.telegram.org/bot5063575833:AAHmbqV6ntCY8ySv9G-z32VmJ_uhf7Sy3ns/";
+$url = "";
 //获取反射信息
 $update = json_decode(file_get_contents('php://input'), true);
 $chat_id = $update['message']['chat']['id'];
